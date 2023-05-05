@@ -1,3 +1,4 @@
+//1
 class Car{
     constructor(make,model,year,isAvailable){
         this.make=make
@@ -17,6 +18,10 @@ console.log(car1);
 
 car1.toggleAvailability()
 console.log(car1);
+
+
+
+
 
 class Rental{
     constructor(car,renterName,rentalStartDate,rentalEndDate){
@@ -40,6 +45,9 @@ class Rental{
 let car= new Car("Harrier","corolla","2023")
 let rental= new Rental(car,"serah Mburu","2023-03-01","2023-03-05")
 console.log(rental.calculateRentalDuration());
+
+
+
 
 
 
@@ -77,6 +85,8 @@ let c=motorrental.calculateRentalDuration()
 console.log(c);
 
 
+
+
 class Questions{
     constructor(text,options,correctAnswer){
         this.text=text
@@ -95,5 +105,4 @@ class Questions{
 let questions= new Questions("what is the capital city of Kenya?",["mombasa","kisumu","nairobi","kitale"]);
 console.log(questions.checkAnswer("nairobi"));
 console.log(questions.checkAnswer("kitale"));
-
 
